@@ -1,11 +1,11 @@
 {
     "pages": [
-        "pages/details/details",
         "pages/index/index",
         "pages/publish/publish",
         "pages/income/income",
         "pages/about/about",
 
+        "pages/details/details",
         "pages/tagList/tagList"
     ],
     "window": {
