@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/details/details",
+        "pages/index/index",
+        "pages/publish/publish",
+        "pages/income/income",
+        "pages/about/about",
+
+        "pages/tagList/tagList"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "backgroundColor": "",
+        "selectedColor": "#1296db",
+        "color": "#515151",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "乐享广场",
+                "iconPath": "./static/images/index1.png",
+                "selectedIconPath": "./static/images/index2.png"
+            },
+            {
+                "pagePath": "pages/publish/publish",
+                "text": "我要发布",
+                "iconPath": "./static/images/publish1.png",
+                "selectedIconPath": "./static/images/publish2.png"
+            },
+            {
+                "pagePath": "pages/income/income",
+                "text": "收入管理",
+                "iconPath": "./static/images/income.png",
+                "selectedIconPath": "./static/images/income1.png"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "个人中心",
+                "iconPath": "./static/images/me1.png",
+                "selectedIconPath": "./static/images/me2.png"
+            }
+        ]
+    }
+}

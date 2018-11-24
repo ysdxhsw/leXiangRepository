@@ -1,0 +1,84 @@
+/**index.wxss**/
+
+.container {
+    font-size: 34rpx;
+}
+
+.userinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rpx 16rpx;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-logo {
+    margin-top: 10rpx;
+    margin-right: 30rpx;
+    width: 450rpx;
+    height: 90rpx;
+}
+
+.logo {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.formContent {
+    font-size: 24rpx;
+    padding: 40rpx 0rpx;
+}
+
+.formContent .icon {
+    display: flex;
+    font-size: 36rpx;
+}
+
+.formContent input {
+    margin-top: 20rpx;
+    margin-left: 40rpx;
+    /* width: 70%; */
+    /* display: inline; */
+    /* border-bottom: 1rpx solid #ccc; */
+}
+
+.formContent textarea {
+    width: 90%;
+    height: 120rpx;
+    margin-top: 30rpx;
+    margin-left: 40rpx;
+    /* width: 70%; */
+    /* display: inline; */
+    /* border-bottom: 1rpx solid #ccc; */
+}
+
+.formContent .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formContent .icon image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+}
+
+.formContent .img-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 28rpx;
+}
+
+.formContent .select-img {
+    width: 80rpx;
+    height: 65rpx;
+}

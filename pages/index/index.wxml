@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search-warp">
+   <view class="search">
+      <view class="search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input type="text" confirm-type="搜索" placeholder="请输入关键字" value="{{searchValue}}"/>
+      </view>
+    </view>
+    <view class='sousuo'>搜索</view>
+  </view>
+  <view >
+   <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <h2>乐享专题</h2>
+  <view class="warp-box margin-top">
+    <view class="content">
+      <view class="list-li">
+        <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/video.png" /></navigator>
+        <text>电影</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/software.png" /></navigator>
+      <text>软件</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/course.png" /></navigator>
+      <text>教程</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/books.png" /></navigator>
+      <text>书籍</text>
+      </view>
+    </view>
+    <view class="content tow-bottom">
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/resume.png" /></navigator>
+      <text>简历</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/ppt.png" /></navigator>
+      <text>PPT</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/word.png" /></navigator>
+      <text>文档</text>
+      </view>
+      <view class="list-li">
+      <navigator url="./../tagList/tagList?type={{type}}" hover-class="navigator-hover"><image src="../../static/images/other.png" /></navigator>
+      <text>其他</text>
+      </view>
+    </view>
+  </view>
+  <h2>最新推荐</h2>
+  <view class="title-list warp-box margin-top">
+    <view  wx:for="{{dataList}}" class="list-li" wx:key="item.id">
+        <navigator class="li-inner" url="./../details/details?bid={{item.bid}}">
+          <text>{{item.userTitle}}</text>
+          <text>{{item.userTime}}</text>
+        </navigator>
+    </view>
+  
+  </view>
+</view>
+
+<!-- 
+<block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block> -->

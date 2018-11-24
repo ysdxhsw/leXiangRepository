@@ -1,0 +1,57 @@
+.about-warp {
+    padding: 20rpx;
+}
+
+.about-warp .title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rpx;
+    border-bottom: 2rpx solid #eee;
+}
+
+.about-warp .list-li {
+    display: flex;
+    padding: 0rpx 10rpx;
+}
+
+.about-warp .list-li image {
+    margin-right: 20rpx;
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.about-warp navigator {
+    padding: 20rpx 0rpx;
+    margin: 10rpx 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-warp .arrows {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.about-warp .logo {
+    width: 120rpx;
+    height: 120rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.about-warp .massage {
+    margin-left: 20rpx;
+}
+
+.about-warp .warp-list {
+    margin-top: 50rpx;
+}
+
+.about-warp .massage .assistant {
+    margin-top: 10rpx;
+    font-size: 28rpx;
+    color: #666;
+}

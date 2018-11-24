@@ -1,0 +1,81 @@
+/* .container .title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rpx;
+    border-bottom: 2rpx solid #eee;
+}
+
+.container .logo {
+    width: 120rpx;
+    height: 120rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.container .massage {
+    margin-left: 20rpx;
+}
+
+.container .massage .assistant {
+    margin-top: 10rpx;
+    font-size: 28rpx;
+    color: #666;
+} */
+
+.container {
+    font-size: 30rpx;
+}
+
+.content .inner {
+    padding: 34rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .inner .deposit .text-sum {
+    display: inline;
+    margin-right: 20rpx;
+    padding-top: 30rpx;
+    margin-left: 40rpx;
+    color: red;
+    font-size: 60rpx;
+}
+
+.content .inner .btn {
+    border: none;
+    margin: 0 20rpx;
+    font-size: 34rpx;
+    line-height: 50rpx;
+    /* padding: 2rpx; */
+    color: red;
+    border: 1rpx solid red;
+    background-color: #fff;
+}
+
+.content .count {
+    display: flex;
+    justify-content: center;
+    padding: 20rpx;
+}
+
+.content .count .count-left {
+    width: 50%;
+    text-align: center;
+    padding: 20rpx;
+    border-right: 2rpx solid #ccc;
+}
+
+.content .count .count-right {
+    text-align: center;
+    width: 50%;
+    padding: 20rpx;
+}
+
+.content .count .sum {
+    color: red;
+    margin-top: 20rpx;
+}

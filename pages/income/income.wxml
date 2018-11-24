@@ -1,0 +1,54 @@
+<!--logs.wxml-->
+<view class="container">
+ <!-- <view  class="title">
+    <view class="logo">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="massage">
+      <open-data type="userNickName"></open-data>
+      <view class="assistant">账户余额：0金币</view>
+    </view>
+  </view> -->
+  <view class="content">
+    <view class="inner  warp-box"> 
+      <view class="deposit">
+        <view>可提现金额:</view>
+        <text class="text-sum">0.00</text>
+        <text>元</text>
+      </view>
+      <button class='btn'>提现</button>
+    </view>
+    <view class="warp-box count"> 
+        <view class="count-left"> 
+          <view>正在结算单数(单)</view> 
+          <view class="sum">0</view> 
+        </view>
+        <view class="count-right"> 
+          <view>总共结算单数(单)</view> 
+          <view class="sum">0</view> 
+        </view>
+     </view>
+    <view class="warp-box count"> 
+        <view class="count-left"> 
+          <view>正在结算总金额(元)</view> 
+          <view class="sum">0.00</view> 
+        </view>
+        <view class="count-right"> 
+          <view>总共结算金额(元)</view> 
+          <view class="sum">0.00</view> 
+        </view>
+     </view>
+      <view class="warp-box count"> 
+        <view class="count-right"> 
+          <view>今日已结算金额(元)</view> 
+          <view class="sum">0.00</view> 
+        </view>
+     </view>
+      <view class="warp-box count"> 
+        <view class="count-right"> 
+          <view>正在结算金额(元)</view> 
+          <view class="sum">0.00</view> 
+        </view>
+     </view>
+  </view>
+</view>

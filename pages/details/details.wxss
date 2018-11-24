@@ -1,0 +1,149 @@
+.about-warp {
+    padding: 20rpx;
+}
+
+.about-warp .title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rpx;
+}
+
+.about-warp .logo {
+    width: 120rpx;
+    height: 120rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.logo image {
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.about-warp .massage {
+    margin-left: 20rpx;
+}
+
+.about-warp .massage .assistant {
+    margin-top: 15rpx;
+    font-size: 28rpx;
+    color: #999;
+}
+
+.about-warp .report {
+    color: blue;
+    opacity: 0.6;
+    font-size: 26rpx;
+    padding-top: 10rpx;
+    margin: 30rpx;
+}
+
+.content {
+    text-align: center;
+    color: #666;
+}
+
+.content-title {
+    display: block;
+    padding-top: 30rpx;
+}
+
+.title-warp {
+    display: flex;
+    border-bottom: 2rpx solid #eee;
+    justify-content: space-between;
+}
+
+.content-num {
+    color: #999;
+    font-size: 26rpx;
+    padding-top: 18rpx;
+}
+
+.content-img {
+    margin-top: 60rpx;
+    font-size: 32rpx;
+}
+
+.pay-num {
+    padding-top: 50rpx;
+    text-align: right;
+    font-size: 30rpx;
+    color: #666;
+    margin-right: 40rpx;
+}
+
+.button-style {
+    margin-top: 35rpx;
+    font-size: 28rpx;
+    padding: 20rpx;
+    line-height: 42rpx;
+    border-radius: 28rpx;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60rpx;
+    background-color: rgba(255, 83, 83, 0.849);
+}
+
+.about-warp .button {
+    display: flex;
+    color: #666;
+    text-align: center;
+    font-size: 30rpx;
+    padding: 28rpx;
+}
+
+.button image {
+    width: 36rpx;
+    height: 36rpx;
+    padding-right: 10rpx;
+}
+
+.button .img-size {
+    width: 42rpx;
+    height: 42rpx;
+}
+
+.border-left button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #fff;
+    color: #666;
+    font-size: 30rpx;
+}
+
+.about-warp .border-left {
+    border-right: 1rpx solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.about-warp .border-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer {
+    color: #999;
+    padding: 45rpx 0;
+}
+
+.footer-top {
+    font-size: 30rpx;
+    margin-top: 40rpx;
+}
+
+.footer-inner {
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    font-size: 28rpx;
+}

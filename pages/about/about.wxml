@@ -1,0 +1,50 @@
+<!--logs.wxml-->
+<view class="about-warp">
+  <view  class="title">
+    <view class="logo">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="massage">
+      <open-data type="userNickName"></open-data>
+      <view class="assistant">账户余额：0金币</view>
+    </view>
+  </view>
+  <view class="warp-list">
+    <navigator bind:tap="handleIsShow" url="./../income/income?type={{type}}"> 
+      <view class="list-li">
+        <image src='../../static/images/income1.png'></image>
+        <text>收入管理</text>
+      </view>
+      <image class='arrows' src='../../static/images/unfold1.png'></image>
+    </navigator>
+    <navigator bind:tap="handleIsShow" url="./../tagList/tagList?type={{type}}"> 
+      <view class="list-li">
+        <image src='../../static/images/issue1.png'></image> 
+        <text>我的发布</text>
+      </view>
+      <image class='arrows' src='../../static/images/unfold1.png'></image>
+    </navigator>
+    <navigator bind:tap="handleIsShow" url="./../tagList/tagList?type={{type}}"> 
+      <view class="list-li">
+        <image src='../../static/images/buy1.png'></image> 
+        <text>我的购买</text>
+      </view>
+      <image class='arrows' src='../../static/images/unfold1.png'></image>
+    </navigator>
+    <navigator bind:tap="handleIsShow" url="./../tagList/tagList?type={{type}}"> 
+      <view class="list-li">
+        <image  src='../../static/images/problem1.png'></image> 
+        <text>常见问题</text>
+      </view>
+      <image class='arrows' src='../../static/images/unfold1.png'></image>
+    </navigator>
+    <navigator bind:tap="handleIsShow" url="./../tagList/tagList?type={{type}}"> 
+      <view class="list-li">
+        <image src='../../static/images/disclaimer1.png'></image> 
+        <text>免责声明</text>
+      </view>
+      <image class='arrows' src='../../static/images/unfold1.png'></image>
+    </navigator>
+   </view>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>

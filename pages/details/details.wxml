@@ -1,0 +1,51 @@
+<!--logs.wxml-->
+<view class="about-warp">
+  <view class="warp-box">
+    <view class="title-warp">
+      <view  class="title">
+        <view class="logo">
+          <image src="{{userObj.userUrl}}" />
+          <!-- <open-data type="userAvatarUrl"></open-data> -->
+        </view>
+        <view class="massage">
+          <view>{{userObj.userName}}</view>
+          <view class="assistant">发布的分享信息</view>
+        </view>
+      </view>
+      <view class="report">举报</view>
+    </view>
+    <view class="content">
+      <text class="content-title">{{userObj.userTitle}}</text>
+      <view class="content-num">浏览次数：100</view>
+      <view class="content-img">
+        <view >查看缩略图</view>
+        <view class="">
+          缩略图展示
+        </view>
+      </view>
+    </view>
+    <view class="pay-num">
+          购买人数：100
+    </view>
+  </view>
+  <view class="button-style">
+    <text>1.99</text>金币查看内容
+    <view>金币支付后，可转售并获得收益</view>
+  </view>
+  <view class="warp-box button">  
+    <view class="border-left">
+      <image src="../../static/images/show.png" />
+      <button plain="true" open-type="share">分享内容</button>
+    </view>
+    <view class="border-right">
+      <image class="img-size" src="../../static/images/deposit.png" />
+      <text>我要提现</text>
+    </view>
+  </view>
+  <view class="footer">  
+    <view class="footer-top">使用说明：</view>
+    <view class="footer-inner">> 在支付的两小时内，可申请退币，每三十天可申请一次。</view>
+    <view class="footer-inner">> 使用本产品，即代表您已阅读并认同【常见问题】与【免责声明】。</view>
+  </view>
+  
+</view>

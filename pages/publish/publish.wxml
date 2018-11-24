@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <view class="logo">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <image bindtap="bindViewTap" class="userinfo-logo" src="../../static/images/logo.png" ></image>
+  </view>
+  <view class="formContent">
+    <view class="warp-box">
+      <view class="icon">
+        <image src="../../static/images/headline2.png" alt="标题"></image>
+        <label>标题：</label>
+      </view>
+      <input placeholder="在此输入标题，不超过20字！" type="text"/>
+    </view>
+    <view class="warp-box">
+      <view class="icon">
+        <image src="../../static/images/price2.png" alt="标题"></image>
+        <label>售价：</label>
+      </view>
+      <view class="price"> <input placeholder="1 - 200" type="digit"/>金币</view>
+    </view>
+    <view class="warp-box">
+      <view class="icon">
+        <image src="../../static/images/content2.png" alt="标题"></image>
+        <label>内容：</label>
+      </view>
+      <textarea maxlength="5000"  style="height:{{height}}" placeholder="在此输入内容，他人支付后可见，如：文字、网盘地址、解压码，序列号等。不得包含、色情政治及其他敏感信息（系统自动检测），不超过 5000 字。" type="text"/>
+    </view>
+    <view class="warp-box">
+      <view class="icon">
+        <image src="../../static/images/preview2.png" alt="标题"></image>
+        <label>预览图</label>
+      </view>
+      <view class="section">
+        <form bindsubmit="bindFormSubmit">
+          <view class="img-top">
+            <image wx:for="{{imglist}}" mode="aspectFit" bindtap="ylimg" data-src="{{item}}" style="width:75px;height:75px;" src="{{item}}"></image>
+          </view>
+           <view class="img-top">
+            <image class="select-img" bindtap="checkimg" src="../../static/images/photo.png"/>
+          </view>
+        </form>
+      </view>
+    </view>
+  </view>
+
+  <view>
+     <button form-type="submit"> 提交 </button>
+  </view>
+  
+</view>
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+   <open-data type="userAvatarUrl" lang="zh_CN"></open-data>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->

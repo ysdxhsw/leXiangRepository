@@ -1,0 +1,110 @@
+.section {
+    font-size: 26rpx;
+}
+
+.search-warp {
+    position: relative;
+    padding-bottom: 40rpx;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 80%;
+}
+
+.search_arr {
+    border: 1px solid #d0d0d0;
+    border-radius: 18rpx;
+    margin-left: 20rpx;
+}
+
+.search_arr input {
+    margin-left: 72rpx;
+    height: 60rpx;
+    border-radius: 10px;
+}
+
+.margin-top {
+    margin-top: 30rpx;
+}
+
+.warp-box {
+    margin-bottom: 0;
+}
+
+.bc_text {
+    line-height: 68rpx;
+    height: 68rpx;
+    margin-top: 34rpx;
+}
+
+.sousuo {
+    margin-left: 15rpx;
+    width: 15%;
+    line-height: 150%;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 10rpx;
+}
+
+.page_row {
+    display: flex;
+    flex-direction: row
+}
+
+.searchcion {
+    margin: 10rpx 10rpx 10rpx 10rpx;
+    position: absolute;
+    /* left: 66rpx; */
+    z-index: 2;
+    /* width: 20rpx;
+    height: 20rpx; */
+    text-align: center;
+}
+
+h2 {
+    font-size: 30rpx;
+    display: block;
+    padding-top: 45rpx;
+}
+
+.tow-bottom {
+    margin-bottom: 0rpx;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26rpx;
+}
+
+.content .list-li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rpx 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.content .list-li image {
+    width: 90rpx;
+    height: 90rpx;
+    padding: 10rpx 20rpx;
+}
+
+.title-list {
+    padding: 18rpx 0;
+    font-size: 28rpx;
+}
+
+.title-list .list-li {
+    padding: 0rpx 20rpx;
+}
+
+.list-li .li-inner {
+    padding: 10rpx;
+    display: flex;
+    justify-content: space-between;
+}
